@@ -26,6 +26,15 @@ https://drive.google.com/file/d/1Sjh7YeTL_bgxEXIz9z8-sxagTU5nY2MO/view
 
 ---
 
+## 📘 Technical Case Study
+
+If you’d like to explore the architecture, challenges, and design decisions in depth:
+
+👉 **[Read the Technical Case Study](TECHNICAL_CASE_STUDY.md)**
+
+---
+
+
 ## ✨ Features
 
 ### Bill Payments
