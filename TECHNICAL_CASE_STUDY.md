@@ -180,43 +180,43 @@ Built a reusable component library within the monorepo:
 
 ---
 
-## 🔧 Technical Challenges & Solutions
+## 🔧 Key Architectural Decisions
 
-### Challenge 1: Metro Bundler Path Resolution in Monorepo
+### 1. Monorepo Asset Strategy
 
-**Problem**: Deep relative imports across library boundaries caused Metro bundler failures.
+**Decision**: Colocate assets with consuming components rather than using centralized asset folders.
 
-**Solution**: 
-- Configured path aliases in `tsconfig.json`
-- Moved critical assets to consuming library directories
-- Used Nx workspace references for clean imports
+**Why**: 
+- Ensures Metro bundler resolves paths correctly across library boundaries
+- Simplifies imports with relative paths within each module
+- Reduces coupling between shared libraries
 
-### Challenge 2: Native Module Crashes
+### 2. Mock-First Development Approach
 
-**Problem**: Third-party native modules (contacts) caused app crashes due to misconfiguration.
+**Decision**: Built a comprehensive mock API layer before integrating real backend.
 
-**Solution**:
-- Implemented defensive coding with try-catch wrappers
-- Created mock data layer for development
-- Graceful fallbacks when native features unavailable
+**Why**:
+- Enabled rapid UI development without backend dependencies
+- Easy to simulate edge cases (failures, empty states, delays)
+- Graceful fallbacks when native features are unavailable
 
-### Challenge 3: Cross-Screen Data Flow
+### 3. Custom Hooks for Business Logic
 
-**Problem**: Maintaining state consistency across complex navigation flows.
+**Decision**: Encapsulated all screen-specific logic in custom hooks (e.g., `usePayBill`, `useRechargePlan`).
 
-**Solution**:
-- Utilized React Navigation params for screen-to-screen data
-- Redux store for global state (user preferences, history)
-- Custom hooks for encapsulating business logic
+**Why**:
+- Clean separation between UI and logic
+- Reusable across different screen layouts
+- Easier unit testing of business logic
 
-### Challenge 4: Dynamic Bill Amount Display
+### 4. Typed Navigation Parameters
 
-**Problem**: Hardcoded values appearing instead of actual transaction data.
+**Decision**: Created TypeScript interfaces for all route parameters.
 
-**Solution**:
-- Implemented proper parameter passing through navigation
-- Created typed interfaces for route params
-- Added fallback values with clear "N/A" indicators
+**Why**:
+- Compile-time safety for navigation data
+- Self-documenting screen contracts
+- Prevents runtime errors from missing/wrong params
 
 ---
 
