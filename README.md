@@ -12,9 +12,21 @@
 
 ## 🎬 Demo
 
-https://drive.google.com/file/d/1Sjh7YeTL_bgxEXIz9z8-sxagTU5nY2MO/view
-
 > *Demo video showcasing complete bill payment flows*
+<p align="center">
+  <video width="320"
+       autoplay
+       loop
+       muted
+       playsinline
+       preload="metadata"
+       controls
+       poster="https://raw.githubusercontent.com/thelavi/mypay-react-native-case-study/main/thumbnail.png">
+  <source src="https://raw.githubusercontent.com/thelavi/mypay-react-native-case-study/main/myPay-demo.mp4" type="video/mp4">
+</video>
+</p>
+
+<p align="center"><i>Complete BBPS payment flow running inside the app</i></p>
 
 ---
 
