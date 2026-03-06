@@ -1,6 +1,6 @@
-# MyPay - BBPS Mobile Application
+# MyPay - React Native Bill Payment App (Technical Case Study)
 
-> 📌 This document is a technical case study of **MyPay** — a React Native mobile application designed following BBPS bill payment flows and standards, enabling seamless utility bill payments and mobile recharges.
+> 📌 This document is a technical case study of **MyPay** — a React Native mobile application designed around modern bill payment workflows, enabling seamless utility bill payments and mobile recharges.
 
 ![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android-blue)
 ![Framework](https://img.shields.io/badge/Framework-React%20Native-61DAFB)
@@ -11,12 +11,12 @@
 
 ## 📱 Project Overview
 
-**MyPay** is a comprehensive bill payment application built using React Native, designed to provide users with a seamless experience for paying utility bills and mobile recharges through the BBPS (Bharat Bill Payment System) framework.
+**MyPay** is a comprehensive bill payment application built using React Native, designed to provide users with a seamless experience for paying utility bills and mobile recharges through an integrated bill payment platform.
 
 ### Key Highlights
 - **Cross-Platform**: Single codebase for iOS and Android
 - **Monorepo Architecture**: Nx-powered workspace for scalable development
-- **Real-time Bill Fetching**: Integration-ready architecture for BBPS APIs
+- **Real-time Bill Fetching**: Integration-ready architecture for utility service APIs
 - **Secure Payments**: Industry-standard security practices
 
 ---
@@ -345,7 +345,7 @@ npm run android
 **Role**: Frontend Developer (React Native)
 
 **Key Contributions**:
-- Architected and implemented complete BBPS payment flows
+- Architected and implemented complete utility bill payment flows
 - Built reusable component library
 - Integrated state management with Redux Toolkit
 - Resolved complex Metro bundler and native module issues
