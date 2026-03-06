@@ -21,6 +21,26 @@
 
 ---
 
+### 🎬 Demo Video
+
+Short walkthrough showcasing the main bill payment flows and UI interactions.
+
+👉 [Watch Demo](https://drive.google.com/file/d/1Sjh7YeTL_bgxEXIz9z8-sxagTU5nY2MO/view?usp=drive_link)
+
+### Screen Flow Overview
+
+1. **Home Dashboard** - Quick access to all bill categories
+2. **Category Selection** - Choose bill type with visual icons
+3. **Biller Selection** - State-wise biller listing
+4. **Bill Input** - Consumer number entry with validation
+5. **Bill Details** - Fetched bill with breakdown
+6. **Payment Confirmation** - Amount review and proceed
+7. **Payment Success** - Confirmation with receipt option
+8. **Bill Receipt** - Detailed transaction receipt
+9. **History** - All past transactions
+
+---
+
 ## 🏗️ Technical Architecture
 
 ### Technology Stack
@@ -262,30 +282,6 @@ Implemented feature-specific hooks for clean separation:
 - Lazy loading for screens
 - Optimized re-renders with proper memoization
 - Efficient list rendering with FlatList/ScrollView
-
----
-
-## 📱 Screenshots & Demo Access
-
-> *Screenshots available upon request - NDA restrictions apply*
-
-### 🎬 Demo Video
-
-Demo available on request (NDA-safe version):
-
-👉 [View Demo on Google Drive](https://drive.google.com/file/d/1Sjh7YeTL_bgxEXIz9z8-sxagTU5nY2MO/view?usp=drive_link)
-
-### Screen Flow Overview
-
-1. **Home Dashboard** - Quick access to all bill categories
-2. **Category Selection** - Choose bill type with visual icons
-3. **Biller Selection** - State-wise biller listing
-4. **Bill Input** - Consumer number entry with validation
-5. **Bill Details** - Fetched bill with breakdown
-6. **Payment Confirmation** - Amount review and proceed
-7. **Payment Success** - Confirmation with receipt option
-8. **Bill Receipt** - Detailed transaction receipt
-9. **History** - All past transactions
 
 ---
 
