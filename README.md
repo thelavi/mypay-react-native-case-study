@@ -1,4 +1,4 @@
-# 📱 MyPay - BBPS Mobile App
+# 📱 MyPay - Utility Bill Payment Mobile App
 
 > A React Native bill payment application showcasing mobile development expertise
 
@@ -25,7 +25,7 @@
 
 ## 📋 About This Project
 
-**MyPay** is a production-grade mobile application for the Bharat Bill Payment System (BBPS), enabling users to pay utility bills and perform mobile recharges.
+**MyPay** is a production-grade mobile application for utility bill payments and mobile recharges, built to demonstrate scalable mobile architecture and real-world payment workflows.
 
 ⚠️ **Note**: Source code is proprietary and under NDA. This repository serves as a portfolio showcase demonstrating technical capabilities and architecture decisions.
 
@@ -177,7 +177,7 @@ API Integration • Mock-First Development • Cross-Platform
 
 **Lavi Sharma**
 
-- Designed and implemented complete BBPS payment flows
+- Designed and implemented complete utility bill payment flows
 - Built scalable component library
 - Architected monorepo structure
 - Resolved complex native module issues
@@ -199,5 +199,4 @@ Interested in the technical deep-dive or demo walkthrough?
 
 ---
 
-*This repository contains documentation only. Source code is proprietary and protected under NDA.*
-
+⚠️ **Note**: Source code is proprietary and cannot be publicly shared. This repository serves as a portfolio showcase demonstrating architecture, design decisions, and technical capabilities.
